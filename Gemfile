@@ -52,3 +52,4 @@ gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 
 # Ajouts Larry
 gem 'jquery'
+gem 'font-awesome-rails'
