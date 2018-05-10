@@ -11,5 +11,12 @@
 
   <body class="is-preload">
     <%= yield %>
+
+    <%= javascript_include_tag 'jquery.min', 'data-turbolinks-track': 'reload' %>
+    <%= javascript_include_tag 'browser.min', 'data-turbolinks-track': 'reload' %>
+    <%= javascript_include_tag 'breakpoints.min', 'data-turbolinks-track': 'reload' %>
+    <%= javascript_include_tag 'util', 'data-turbolinks-track': 'reload' %>
+    <%= javascript_include_tag 'main', 'data-turbolinks-track': 'reload' %>
+
   </body>
 </html>
